@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ind02_Wasserott_Rebecca" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="h9J-dw-C5I" userLabel="1">
+                                <rect key="frame" x="22" y="127" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="tbz-kH-2CS" appends="YES" id="U9O-5m-z1P"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="b3H-J0-ZeA" userLabel="2">
+                                <rect key="frame" x="115" y="127" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="mCL-98-XjS" appends="YES" id="JTS-XJ-qot"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="vqh-g8-pgV" userLabel="3">
+                                <rect key="frame" x="208" y="127" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="3q8-gp-Pm2" appends="YES" id="ATx-4M-gdf"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="zZc-fZ-nSR" userLabel="4">
+                                <rect key="frame" x="301" y="127" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="206-Qn-YTC" appends="YES" id="RF8-0O-EKA"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="rgf-rm-yKm" userLabel="5">
+                                <rect key="frame" x="22" y="220" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="OUh-bR-mZw" appends="YES" id="gkV-uA-qNS"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="lq0-qf-aV6" userLabel="6">
+                                <rect key="frame" x="115" y="220" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="HY4-k1-isp" appends="YES" id="pK5-P2-T7D"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7" translatesAutoresizingMaskIntoConstraints="NO" id="2Wi-zN-Q13" userLabel="7">
+                                <rect key="frame" x="208" y="220" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="m2d-yd-KxD" appends="YES" id="19j-qX-YJr"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="8" translatesAutoresizingMaskIntoConstraints="NO" id="yTa-wM-nAd" userLabel="8">
+                                <rect key="frame" x="301" y="220" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="k7H-Kt-lSV" appends="YES" id="I0W-mo-54a"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9" translatesAutoresizingMaskIntoConstraints="NO" id="MRV-Je-Gjz" userLabel="9">
+                                <rect key="frame" x="22" y="313" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="agb-Zs-DhX" appends="YES" id="8v3-RL-dWv"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="10" translatesAutoresizingMaskIntoConstraints="NO" id="TuA-rn-hAF" userLabel="10">
+                                <rect key="frame" x="115" y="313" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="S6X-tz-wwW" appends="YES" id="Pyz-75-exp"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11" translatesAutoresizingMaskIntoConstraints="NO" id="Cfj-cr-ds9" userLabel="11">
+                                <rect key="frame" x="208" y="313" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="6WC-Hc-2Kd" appends="YES" id="VxR-Hz-UcL"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="12" translatesAutoresizingMaskIntoConstraints="NO" id="W6I-ZE-auf" userLabel="12">
+                                <rect key="frame" x="301" y="313" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="vMO-Nz-7DB" appends="YES" id="DQz-ON-9b0"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13" translatesAutoresizingMaskIntoConstraints="NO" id="0xG-M2-ACJ" userLabel="13">
+                                <rect key="frame" x="22" y="406" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="WBb-7d-1Yd" appends="YES" id="cSx-yr-Oj4"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="14" translatesAutoresizingMaskIntoConstraints="NO" id="hFK-Yz-ORW" userLabel="14">
+                                <rect key="frame" x="115" y="406" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Z9C-pi-OjS" appends="YES" id="twh-ad-l28"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="15" translatesAutoresizingMaskIntoConstraints="NO" id="m8y-dU-yWR" userLabel="15">
+                                <rect key="frame" x="208" y="406" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="EgX-oN-2yu" appends="YES" id="1IU-tJ-wfB"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="16" translatesAutoresizingMaskIntoConstraints="NO" id="6Hl-YS-GWp" userLabel="16">
+                                <rect key="frame" x="301" y="406" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="AsU-h3-Gte" appends="YES" id="IFV-bJ-K7p"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="17" translatesAutoresizingMaskIntoConstraints="NO" id="waB-uZ-vnu" userLabel="17">
+                                <rect key="frame" x="22" y="499" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Mvh-u7-Q7T" appends="YES" id="DS0-U0-xNz"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="18" translatesAutoresizingMaskIntoConstraints="NO" id="6xw-L1-U06" userLabel="18">
+                                <rect key="frame" x="115" y="499" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="SPs-Ye-GB1" appends="YES" id="26k-Gg-0RT"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stop.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="9xj-Zt-q2M" userLabel="hole">
+                                <rect key="frame" x="301" y="499" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rebecca Wasserott" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBH-Fm-Lbb">
+                                <rect key="frame" x="82" y="59" width="250" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBy-EG-vKz">
+                                <rect key="frame" x="113" y="734" width="188" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Show Answer">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="20"/>
+                                    <color key="baseForegroundColor" name="AccentColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="ShowAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RVu-HH-qwj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88T-vZ-UYU">
+                                <rect key="frame" x="117" y="637" width="180" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Shuffle" cornerStyle="small" buttonSize="large">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="Shuffle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BSG-Vp-Ub0"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="19" translatesAutoresizingMaskIntoConstraints="NO" id="Mhl-q6-bPA" userLabel="19">
+                                <rect key="frame" x="208" y="499" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bZM-R9-Ava" appends="YES" id="4pA-ET-z5r"/>
+                                </connections>
+                            </imageView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="seal" translatesAutoresizingMaskIntoConstraints="NO" id="mS3-7M-EsT" userLabel="seal answer">
+                                <rect key="frame" x="22" y="127" width="372" height="465"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="Name" destination="oBH-Fm-Lbb" id="quR-j9-NCr"/>
+                        <outlet property="Seal_Answer" destination="mS3-7M-EsT" id="6XR-ih-RGt"/>
+                        <outlet property="hole" destination="9xj-Zt-q2M" id="13C-8f-rXE"/>
+                        <outlet property="seal_1" destination="h9J-dw-C5I" id="Erp-tB-bII"/>
+                        <outlet property="seal_10" destination="TuA-rn-hAF" id="fCu-gd-IKV"/>
+                        <outlet property="seal_11" destination="Cfj-cr-ds9" id="dpd-er-cPj"/>
+                        <outlet property="seal_12" destination="W6I-ZE-auf" id="aai-xq-q5o"/>
+                        <outlet property="seal_13" destination="0xG-M2-ACJ" id="TVN-26-W4f"/>
+                        <outlet property="seal_14" destination="hFK-Yz-ORW" id="XzR-gf-lLA"/>
+                        <outlet property="seal_15" destination="m8y-dU-yWR" id="3rB-wt-5gl"/>
+                        <outlet property="seal_16" destination="6Hl-YS-GWp" id="AXg-uL-V3I"/>
+                        <outlet property="seal_17" destination="waB-uZ-vnu" id="TBh-2p-QCa"/>
+                        <outlet property="seal_18" destination="6xw-L1-U06" id="QjY-WF-Mhp"/>
+                        <outlet property="seal_2" destination="b3H-J0-ZeA" id="xAN-3V-HfN"/>
+                        <outlet property="seal_3" destination="vqh-g8-pgV" id="LYm-z8-Eab"/>
+                        <outlet property="seal_4" destination="zZc-fZ-nSR" id="yuo-YJ-Gsa"/>
+                        <outlet property="seal_5" destination="rgf-rm-yKm" id="HaH-1c-9RH"/>
+                        <outlet property="seal_6" destination="lq0-qf-aV6" id="PDq-gj-ziA"/>
+                        <outlet property="seal_7" destination="2Wi-zN-Q13" id="mnV-Lz-ohO"/>
+                        <outlet property="seal_8" destination="yTa-wM-nAd" id="599-BY-yIQ"/>
+                        <outlet property="seal_9" destination="MRV-Je-Gjz" id="h7H-QS-5Qa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="tbz-kH-2CS" userLabel="1">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="daC-mp-2Oc"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="mCL-98-XjS" userLabel="2">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="Kfi-g6-cQE"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="3q8-gp-Pm2" userLabel="3">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="wrf-Mn-L7O"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="206-Qn-YTC" userLabel="4">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="q1x-EM-zar"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="OUh-bR-mZw" userLabel="5">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="xAC-lW-WDq"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="HY4-k1-isp" userLabel="6">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="o1D-CJ-Lkh"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="m2d-yd-KxD" userLabel="7">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="APS-ia-flq"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="k7H-Kt-lSV" userLabel="8">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="w3r-Rc-scH"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="agb-Zs-DhX" userLabel="9">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="MRE-aB-aYi"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="S6X-tz-wwW" userLabel="10">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="7hI-yi-HOC"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="6WC-Hc-2Kd" userLabel="11">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="kho-Ht-t4j"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="vMO-Nz-7DB" userLabel="12">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="Kkn-JG-i00"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="WBb-7d-1Yd" userLabel="13">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="ZIu-yo-DzP"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Z9C-pi-OjS" userLabel="14">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="C8b-3N-eTX"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="EgX-oN-2yu" userLabel="15">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="nTm-3Z-8DU"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="AsU-h3-Gte" userLabel="16">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="GKv-2R-RQ2"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Mvh-u7-Q7T" userLabel="17">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="TAf-sr-LU2"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="SPs-Ye-GB1" userLabel="18">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="M3I-sV-c1w"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="bZM-R9-Ava" userLabel="19">
+                    <connections>
+                        <action selector="Tap19:" destination="BYZ-38-t0r" id="Lz3-3c-Iu1"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="7zq-3D-13Y" userLabel="hole"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="81.696428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="136" height="136"/>
+        <image name="10" width="136" height="136"/>
+        <image name="11" width="136" height="136"/>
+        <image name="12" width="137" height="136"/>
+        <image name="13" width="136" height="136"/>
+        <image name="14" width="136" height="136"/>
+        <image name="15" width="136" height="136"/>
+        <image name="16" width="137" height="136"/>
+        <image name="17" width="136" height="137"/>
+        <image name="18" width="136" height="137"/>
+        <image name="19" width="136" height="137"/>
+        <image name="2" width="136" height="136"/>
+        <image name="3" width="136" height="136"/>
+        <image name="4" width="137" height="136"/>
+        <image name="5" width="136" height="136"/>
+        <image name="6" width="136" height="136"/>
+        <image name="7" width="136" height="136"/>
+        <image name="8" width="137" height="136"/>
+        <image name="9" width="136" height="136"/>
+        <image name="seal" width="545" height="681"/>
+        <image name="stop.fill" catalog="system" width="128" height="113"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

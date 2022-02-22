@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AFA02D527BD783E00B1A9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA02D427BD783E00B1A9EE /* AppDelegate.swift */; };
+		5AFA02D727BD783E00B1A9EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA02D627BD783E00B1A9EE /* SceneDelegate.swift */; };
+		5AFA02D927BD783E00B1A9EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA02D827BD783E00B1A9EE /* ViewController.swift */; };
+		5AFA02DC27BD783E00B1A9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFA02DA27BD783E00B1A9EE /* Main.storyboard */; };
+		5AFA02DE27BD784000B1A9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AFA02DD27BD784000B1A9EE /* Assets.xcassets */; };
+		5AFA02E127BD784000B1A9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AFA02DF27BD784000B1A9EE /* LaunchScreen.storyboard */; };
+		5AFA02EC27BD784100B1A9EE /* Ind02_Wasserott_RebeccaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA02EB27BD784100B1A9EE /* Ind02_Wasserott_RebeccaTests.swift */; };
+		5AFA02F627BD784100B1A9EE /* Ind02_Wasserott_RebeccaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA02F527BD784100B1A9EE /* Ind02_Wasserott_RebeccaUITests.swift */; };
+		5AFA02F827BD784100B1A9EE /* Ind02_Wasserott_RebeccaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA02F727BD784100B1A9EE /* Ind02_Wasserott_RebeccaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AFA02E827BD784100B1A9EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AFA02C927BD783E00B1A9EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AFA02D027BD783E00B1A9EE;
+			remoteInfo = Ind02_Wasserott_Rebecca;
+		};
+		5AFA02F227BD784100B1A9EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AFA02C927BD783E00B1A9EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AFA02D027BD783E00B1A9EE;
+			remoteInfo = Ind02_Wasserott_Rebecca;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AFA02D127BD783E00B1A9EE /* Ind02_Wasserott_Rebecca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ind02_Wasserott_Rebecca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFA02D427BD783E00B1A9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AFA02D627BD783E00B1A9EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5AFA02D827BD783E00B1A9EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AFA02DB27BD783E00B1A9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AFA02DD27BD784000B1A9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AFA02E027BD784000B1A9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AFA02E227BD784000B1A9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AFA02E727BD784100B1A9EE /* Ind02_Wasserott_RebeccaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ind02_Wasserott_RebeccaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFA02EB27BD784100B1A9EE /* Ind02_Wasserott_RebeccaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind02_Wasserott_RebeccaTests.swift; sourceTree = "<group>"; };
+		5AFA02F127BD784100B1A9EE /* Ind02_Wasserott_RebeccaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ind02_Wasserott_RebeccaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFA02F527BD784100B1A9EE /* Ind02_Wasserott_RebeccaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind02_Wasserott_RebeccaUITests.swift; sourceTree = "<group>"; };
+		5AFA02F727BD784100B1A9EE /* Ind02_Wasserott_RebeccaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind02_Wasserott_RebeccaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AFA02CE27BD783E00B1A9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFA02E427BD784100B1A9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFA02EE27BD784100B1A9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AFA02C827BD783E00B1A9EE = {
+			isa = PBXGroup;
+			children = (
+				5AFA02D327BD783E00B1A9EE /* Ind02_Wasserott_Rebecca */,
+				5AFA02EA27BD784100B1A9EE /* Ind02_Wasserott_RebeccaTests */,
+				5AFA02F427BD784100B1A9EE /* Ind02_Wasserott_RebeccaUITests */,
+				5AFA02D227BD783E00B1A9EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AFA02D227BD783E00B1A9EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AFA02D127BD783E00B1A9EE /* Ind02_Wasserott_Rebecca.app */,
+				5AFA02E727BD784100B1A9EE /* Ind02_Wasserott_RebeccaTests.xctest */,
+				5AFA02F127BD784100B1A9EE /* Ind02_Wasserott_RebeccaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AFA02D327BD783E00B1A9EE /* Ind02_Wasserott_Rebecca */ = {
+			isa = PBXGroup;
+			children = (
+				5AFA02D427BD783E00B1A9EE /* AppDelegate.swift */,
+				5AFA02D627BD783E00B1A9EE /* SceneDelegate.swift */,
+				5AFA02D827BD783E00B1A9EE /* ViewController.swift */,
+				5AFA02DA27BD783E00B1A9EE /* Main.storyboard */,
+				5AFA02DD27BD784000B1A9EE /* Assets.xcassets */,
+				5AFA02DF27BD784000B1A9EE /* LaunchScreen.storyboard */,
+				5AFA02E227BD784000B1A9EE /* Info.plist */,
+			);
+			path = Ind02_Wasserott_Rebecca;
+			sourceTree = "<group>";
+		};
+		5AFA02EA27BD784100B1A9EE /* Ind02_Wasserott_RebeccaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AFA02EB27BD784100B1A9EE /* Ind02_Wasserott_RebeccaTests.swift */,
+			);
+			path = Ind02_Wasserott_RebeccaTests;
+			sourceTree = "<group>";
+		};
+		5AFA02F427BD784100B1A9EE /* Ind02_Wasserott_RebeccaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AFA02F527BD784100B1A9EE /* Ind02_Wasserott_RebeccaUITests.swift */,
+				5AFA02F727BD784100B1A9EE /* Ind02_Wasserott_RebeccaUITestsLaunchTests.swift */,
+			);
+			path = Ind02_Wasserott_RebeccaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AFA02D027BD783E00B1A9EE /* Ind02_Wasserott_Rebecca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFA02FB27BD784100B1A9EE /* Build configuration list for PBXNativeTarget "Ind02_Wasserott_Rebecca" */;
+			buildPhases = (
+				5AFA02CD27BD783E00B1A9EE /* Sources */,
+				5AFA02CE27BD783E00B1A9EE /* Frameworks */,
+				5AFA02CF27BD783E00B1A9EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ind02_Wasserott_Rebecca;
+			productName = Ind02_Wasserott_Rebecca;
+			productReference = 5AFA02D127BD783E00B1A9EE /* Ind02_Wasserott_Rebecca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AFA02E627BD784100B1A9EE /* Ind02_Wasserott_RebeccaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFA02FE27BD784100B1A9EE /* Build configuration list for PBXNativeTarget "Ind02_Wasserott_RebeccaTests" */;
+			buildPhases = (
+				5AFA02E327BD784100B1A9EE /* Sources */,
+				5AFA02E427BD784100B1A9EE /* Frameworks */,
+				5AFA02E527BD784100B1A9EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AFA02E927BD784100B1A9EE /* PBXTargetDependency */,
+			);
+			name = Ind02_Wasserott_RebeccaTests;
+			productName = Ind02_Wasserott_RebeccaTests;
+			productReference = 5AFA02E727BD784100B1A9EE /* Ind02_Wasserott_RebeccaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AFA02F027BD784100B1A9EE /* Ind02_Wasserott_RebeccaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFA030127BD784100B1A9EE /* Build configuration list for PBXNativeTarget "Ind02_Wasserott_RebeccaUITests" */;
+			buildPhases = (
+				5AFA02ED27BD784100B1A9EE /* Sources */,
+				5AFA02EE27BD784100B1A9EE /* Frameworks */,
+				5AFA02EF27BD784100B1A9EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AFA02F327BD784100B1A9EE /* PBXTargetDependency */,
+			);
+			name = Ind02_Wasserott_RebeccaUITests;
+			productName = Ind02_Wasserott_RebeccaUITests;
+			productReference = 5AFA02F127BD784100B1A9EE /* Ind02_Wasserott_RebeccaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AFA02C927BD783E00B1A9EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5AFA02D027BD783E00B1A9EE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5AFA02E627BD784100B1A9EE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5AFA02D027BD783E00B1A9EE;
+					};
+					5AFA02F027BD784100B1A9EE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5AFA02D027BD783E00B1A9EE;
+					};
+				};
+			};
+			buildConfigurationList = 5AFA02CC27BD783E00B1A9EE /* Build configuration list for PBXProject "Ind02_Wasserott_Rebecca" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AFA02C827BD783E00B1A9EE;
+			productRefGroup = 5AFA02D227BD783E00B1A9EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AFA02D027BD783E00B1A9EE /* Ind02_Wasserott_Rebecca */,
+				5AFA02E627BD784100B1A9EE /* Ind02_Wasserott_RebeccaTests */,
+				5AFA02F027BD784100B1A9EE /* Ind02_Wasserott_RebeccaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AFA02CF27BD783E00B1A9EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFA02E127BD784000B1A9EE /* LaunchScreen.storyboard in Resources */,
+				5AFA02DE27BD784000B1A9EE /* Assets.xcassets in Resources */,
+				5AFA02DC27BD783E00B1A9EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFA02E527BD784100B1A9EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFA02EF27BD784100B1A9EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AFA02CD27BD783E00B1A9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFA02D927BD783E00B1A9EE /* ViewController.swift in Sources */,
+				5AFA02D527BD783E00B1A9EE /* AppDelegate.swift in Sources */,
+				5AFA02D727BD783E00B1A9EE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFA02E327BD784100B1A9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFA02EC27BD784100B1A9EE /* Ind02_Wasserott_RebeccaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFA02ED27BD784100B1A9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFA02F627BD784100B1A9EE /* Ind02_Wasserott_RebeccaUITests.swift in Sources */,
+				5AFA02F827BD784100B1A9EE /* Ind02_Wasserott_RebeccaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AFA02E927BD784100B1A9EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AFA02D027BD783E00B1A9EE /* Ind02_Wasserott_Rebecca */;
+			targetProxy = 5AFA02E827BD784100B1A9EE /* PBXContainerItemProxy */;
+		};
+		5AFA02F327BD784100B1A9EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AFA02D027BD783E00B1A9EE /* Ind02_Wasserott_Rebecca */;
+			targetProxy = 5AFA02F227BD784100B1A9EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AFA02DA27BD783E00B1A9EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AFA02DB27BD783E00B1A9EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AFA02DF27BD784000B1A9EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AFA02E027BD784000B1A9EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AFA02F927BD784100B1A9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AFA02FA27BD784100B1A9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AFA02FC27BD784100B1A9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR39325QLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ind02_Wasserott_Rebecca/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sliding-Puzzle.Ind02-Wasserott-Rebecca";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AFA02FD27BD784100B1A9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR39325QLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ind02_Wasserott_Rebecca/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sliding-Puzzle.Ind02-Wasserott-Rebecca";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AFA02FF27BD784100B1A9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR39325QLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sliding-Puzzle.Ind02-Wasserott-RebeccaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ind02_Wasserott_Rebecca.app/Ind02_Wasserott_Rebecca";
+			};
+			name = Debug;
+		};
+		5AFA030027BD784100B1A9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR39325QLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sliding-Puzzle.Ind02-Wasserott-RebeccaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ind02_Wasserott_Rebecca.app/Ind02_Wasserott_Rebecca";
+			};
+			name = Release;
+		};
+		5AFA030227BD784100B1A9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR39325QLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sliding-Puzzle.Ind02-Wasserott-RebeccaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ind02_Wasserott_Rebecca;
+			};
+			name = Debug;
+		};
+		5AFA030327BD784100B1A9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR39325QLS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sliding-Puzzle.Ind02-Wasserott-RebeccaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ind02_Wasserott_Rebecca;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AFA02CC27BD783E00B1A9EE /* Build configuration list for PBXProject "Ind02_Wasserott_Rebecca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFA02F927BD784100B1A9EE /* Debug */,
+				5AFA02FA27BD784100B1A9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFA02FB27BD784100B1A9EE /* Build configuration list for PBXNativeTarget "Ind02_Wasserott_Rebecca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFA02FC27BD784100B1A9EE /* Debug */,
+				5AFA02FD27BD784100B1A9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFA02FE27BD784100B1A9EE /* Build configuration list for PBXNativeTarget "Ind02_Wasserott_RebeccaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFA02FF27BD784100B1A9EE /* Debug */,
+				5AFA030027BD784100B1A9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFA030127BD784100B1A9EE /* Build configuration list for PBXNativeTarget "Ind02_Wasserott_RebeccaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFA030227BD784100B1A9EE /* Debug */,
+				5AFA030327BD784100B1A9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AFA02C927BD783E00B1A9EE /* Project object */;
+}
